@@ -1,0 +1,7 @@
+.DS_store
+.idea/
+vendor/
+stub/
+composer.phar
+config.yml
+composer.lock

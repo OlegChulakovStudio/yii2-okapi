@@ -1,0 +1,20 @@
+{
+  "name": "oleg-chulakov-studio/yii2-okapi",
+  "description": "Yii2 component for OK API",
+  "license": "BSD 3-Clause",
+  "type": "yii2-components",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "authors": [
+    {
+      "name": "Lilit Babayan",
+      "email": "lb@chulakov.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OlegChulakovStudio\\okapi\\": ""
+    }
+  }
+}
