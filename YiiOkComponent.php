@@ -154,8 +154,8 @@ class YiiOkComponent extends Component
         $result = json_decode($response->getBody(), true);
 
         if (isset($result['error_code'])) {
-            $this->addRequestError($result['error']['error_code']);
-            \Yii::error(var_export($result['error'], 1));
+            $this->addRequestError($result['error_code']);
+            \Yii::error(var_export($result, 1));
             return [];
         }
 
